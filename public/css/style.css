@@ -1,0 +1,18 @@
+html {
+  background: url('../home_theater_pics.jpg') no-repeat center center fixed;
+}
+
+body {
+    text-align: center;
+    padding: 75px;
+    font-family: marker felt 
+}
+
+ul {
+    text-alight: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    list-style: none;
+    hover: #000;
+}
+

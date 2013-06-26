@@ -1,0 +1,10 @@
+The movie you searched for: "<%= @query %>""
+
+<ul>
+  <% @movies.each do |movie| %>
+    <li><a href='/movie?id=<%= movie["imdbID"] %>'><%= movie["Title"]%></a>
+
+   
+<% end %>
+
+</ul>
